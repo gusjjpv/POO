@@ -18,5 +18,6 @@ public class Data{
     void mostraData(){
         System.out.println(dia + "/" + mes + "/" + ano);
     }
+
 }
 

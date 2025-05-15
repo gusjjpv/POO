@@ -1,4 +1,4 @@
-package primeiraUnidade.listaExerc;
+package primeiraUnidade.listaExerc.outros;
 import java.text.DecimalFormat;
 
 public class Velocidade {

@@ -1,4 +1,4 @@
-package primeiraUnidade.listaExerc;
+package primeiraUnidade.listaExerc.outros;
 import java.util.Scanner;
 
 public class boasVindas {

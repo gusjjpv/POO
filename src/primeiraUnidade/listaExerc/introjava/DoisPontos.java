@@ -31,5 +31,7 @@ public class DoisPontos {
         }
 
         System.out.println("O segundo ponto esta " + altura + " e " + lado + " do primeiro ponto");
+
+        input.close();
     }
 }
