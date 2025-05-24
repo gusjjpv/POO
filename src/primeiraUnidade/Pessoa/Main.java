@@ -1,0 +1,8 @@
+package primeiraUnidade.Pessoa;
+
+public class Main {
+    public static void main(String[] args){
+        Pessoa marcelo = new Pessoa("marcelo", 1.80);
+        System.out.println(marcelo.getNome());
+    }
+}

@@ -48,5 +48,4 @@ public class TimeFutebol {
             pontos += 1;
         }
     }
-
 }
