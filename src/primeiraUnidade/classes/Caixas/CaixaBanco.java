@@ -1,4 +1,4 @@
-package primeiraUnidade.Caixas;
+package primeiraUnidade.classes.Caixas;
 
 public class CaixaBanco {
     private static int clientesAtendidos = 0;

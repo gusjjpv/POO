@@ -1,4 +1,4 @@
-package primeiraUnidade.ContaBancaria;
+package primeiraUnidade.classes.ContaBancaria;
 
 public class ContaBancaria {
     private String nome;

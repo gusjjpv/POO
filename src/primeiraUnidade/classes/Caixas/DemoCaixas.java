@@ -1,4 +1,4 @@
-package primeiraUnidade.Caixas;
+package primeiraUnidade.classes.Caixas;
 
 public class DemoCaixas {
     public static void main(String[] args){

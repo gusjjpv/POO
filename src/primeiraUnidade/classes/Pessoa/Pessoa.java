@@ -1,4 +1,4 @@
-package primeiraUnidade.Pessoa;
+package primeiraUnidade.classes.Pessoa;
 
 public class Pessoa {
     private String nome;

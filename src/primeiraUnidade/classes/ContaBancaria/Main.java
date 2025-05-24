@@ -1,4 +1,4 @@
-package primeiraUnidade.ContaBancaria;
+package primeiraUnidade.classes.ContaBancaria;
 
 public class Main {
     public static void main(String[] args){
