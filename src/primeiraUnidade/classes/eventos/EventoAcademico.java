@@ -12,7 +12,7 @@ public class EventoAcademico {
         this.mostraEvento();
     }
 
-    void mostraEvento(){
+    public void mostraEvento(){
         System.out.println("Nome: " + nomeDoEvento);
         System.out.println("Local: " + localDoEvento);
         System.out.println("Participantes: "+ numeroDeParticipantes);

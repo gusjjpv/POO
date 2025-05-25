@@ -1,9 +1,8 @@
 package primeiraUnidade.classes.ContaBancaria;
 
-public class Main {
+public class Main{
     public static void main(String[] args){
-        ContaBancaria conta = new ContaBancaria(null, 0, false);
-        ContaBancaria conta2 = new ContaBancaria("Joao");
-        System.out.println(conta2);
+        ContaBancaria conta1 = new ContaBancaria("João", 500, false);
+        System.out.println(conta1.toString());
     }
 }

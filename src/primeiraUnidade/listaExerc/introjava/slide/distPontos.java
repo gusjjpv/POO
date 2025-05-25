@@ -1,4 +1,4 @@
-package primeiraUnidade.listaExerc.outros;
+package primeiraUnidade.listaExerc.introjava.slide;
 import java.util.Scanner;
 
 class distPontos{

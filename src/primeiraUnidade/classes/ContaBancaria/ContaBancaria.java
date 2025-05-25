@@ -1,23 +1,25 @@
 package primeiraUnidade.classes.ContaBancaria;
 
-public class ContaBancaria {
+public class ContaBancaria{
+    //atributos
     private String nome;
-    private float saldo;
+    private double saldo;
     private boolean especial;
 
-    public ContaBancaria(String nome, float saldo, boolean especial){
+    public ContaBancaria(String nome, double saldo, boolean especial){
         this.nome = nome;
         this.saldo = saldo;
         this.especial = especial;
     }
 
-    public ContaBancaria(String nome) {
+    public ContaBancaria(String nome){
         this.nome = nome;
-        this.saldo = 0.0F;
+        this.saldo = 0.0;
         this.especial = false;
     }
 
-    public String toString() {
-        return "[nome=" + nome + ", saldo=" + saldo + ", especial=" + (especial ? "sim": "nao") + "]";
+    public String toString(){
+        String res = "[Nome:" + nome + "\nSaldo:" + saldo + "\nEspecial:" + (especial ? "sim" : "nao") + "]";
+        return res;
     }
 }

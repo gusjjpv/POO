@@ -11,8 +11,7 @@ public class CaixaBanco {
     public void iniciaAtendimento(){
         System.out.println("Caixa "+ numeroCaixa+ "atendendo o cliente "+ ++clientesAtendidos);
     }
-
-    @Override
+    
     public String toString() {
         return "numeroCaixa= " + numeroCaixa;
     }
