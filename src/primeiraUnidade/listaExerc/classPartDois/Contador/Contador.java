@@ -12,6 +12,6 @@ public class Contador{
     }
 
     public void imprimeContador(){
-        System.out.println(contador);
+        System.out.print(contador);
     }
 }
