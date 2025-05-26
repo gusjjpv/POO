@@ -1,4 +1,4 @@
-package primeiraUnidade.listaExerc.classPartDois;
+package primeiraUnidade.listaExerc.classPartDois.Elevador;
 
 public class Predio{
     public static void main(String[] args){

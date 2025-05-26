@@ -1,4 +1,4 @@
-package primeiraUnidade.listaExerc.classPartDois;
+package primeiraUnidade.listaExerc.classPartDois.Elevador;
 
 public class Elevador{
     private static int numAndarAtual = 0;
