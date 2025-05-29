@@ -4,12 +4,10 @@ public class DemoLampada{
     public static void main(String[] args){
         Lampada lampada = new Lampada();
 
-        lampada.mostraEstado();
-        lampada.acende();
-        lampada.apaga();
-        lampada.acende();
-        lampada.acende();
-        lampada.acende();
-        lampada.mostraEstado();
+        lampada.ligar();
+        lampada.estaLigada();
+        lampada.ligar();
+        lampada.desligar();
+        lampada.estaLigada();
     }
 }

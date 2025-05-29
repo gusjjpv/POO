@@ -1,7 +1,7 @@
 package primeiraUnidade.listaExerc.classPartDois.Contador;
 
 public class Contador{
-    private int contador;
+    private static int contador;
 
     public void zerar(){
         contador = 0;
