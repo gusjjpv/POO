@@ -13,11 +13,9 @@ public class Agenda{
     }
 
     public void listaDias(int dia, int mes, int ano){
-        boolean encontrou = false;
         for(EntradaAgenda entrada: this.compromissos){
             if(entrada.ehNoDia(dia, mes, ano)){
                 System.out.println(entrada);
-                encontrou = true;
             }
         }
     }

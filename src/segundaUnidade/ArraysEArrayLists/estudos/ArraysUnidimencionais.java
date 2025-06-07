@@ -3,7 +3,7 @@ package segundaUnidade.ArraysEArrayLists.estudos;
 public class ArraysUnidimencionais {
     public static void main(String[] args){
         //declaracao, tem duas formas
-        double[] arrayDeDouble = new double[100];
+        //double[] arrayDeDouble = new double[100];
         int arrayDeInteiros[] = new int[100];
 
         int array[] = new int[60*2];
@@ -11,9 +11,9 @@ public class ArraysUnidimencionais {
         array[23] = 10;
         // se os arrays n forem inicializados, vao receber os valores padroes dos tipos;
         //
-        double[] medidasDeTemperatura;
-        medidasDeTemperatura = new double[24 * 60 * 60];
-        double[] duplicata = medidasDeTemperatura;
+        //double[] medidasDeTemperatura;
+        //medidasDeTemperatura = new double[24 * 60 * 60];
+        //double[] duplicata = medidasDeTemperatura;
         /*
          * quando fazemos esse tipo de inicialização estamos fazendo com que a
          * referência duplicata aponte para o mesmo objeto array na memória para o
