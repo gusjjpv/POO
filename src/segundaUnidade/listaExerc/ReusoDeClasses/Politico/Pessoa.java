@@ -1,6 +1,6 @@
 package segundaUnidade.listaExerc.ReusoDeClasses.Politico;
 
-public class Pessoa{
+public class Pessoa {
     private String nome;
     private int idade;
 
@@ -10,6 +10,6 @@ public class Pessoa{
     }
 
     public String toString(){
-        return "Nome:" + this.nome + "\tIdade:" + this.idade + "\n";
+        return "nome:" + nome + " idade:" + idade + "\n";
     }
 }

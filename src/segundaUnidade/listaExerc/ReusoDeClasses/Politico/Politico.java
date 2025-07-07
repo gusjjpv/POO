@@ -9,7 +9,6 @@ public class Politico extends Pessoa{
     }
 
     public String toString(){
-        String res = super.toString() + "Partido:" + this.partido + "\n";
-        return res;
+        return super.toString() + "partido:"+ partido + "\n";
     }
 }

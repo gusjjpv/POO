@@ -9,7 +9,6 @@ public class Prefeito extends Politico{
     }
 
     public String toString(){
-        String res = super.toString() + "Municipio:" + municipio + "\n";
-        return res;
+        return super.toString() + "municipio:" + municipio + "\n";
     }
 }

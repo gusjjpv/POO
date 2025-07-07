@@ -1,10 +1,9 @@
-package segundaUnidade.listaExerc.ReusoDeClasses.pc;
+package segundaUnidade.listaExerc.ReusoDeClasses.Pc;
 
 public class Equipamento {
-    private String item;
-    private String marca;
+    private String item, marca;
 
-    public Equipamento(String item, String marca) {
+    public Equipamento(String item, String marca){
         this.item = item;
         this.marca = marca;
     }
@@ -21,8 +20,11 @@ public class Equipamento {
         this.item = item;
     }
 
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+
     public String toString(){
-        String res = "Equipamento: " + item + "\t" + marca;
-        return res;
+        return ("{Equipamento:" + item + "\t" + marca+"}");
     }
 }

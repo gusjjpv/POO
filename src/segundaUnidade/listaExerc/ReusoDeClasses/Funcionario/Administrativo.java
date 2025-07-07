@@ -2,33 +2,21 @@ package segundaUnidade.listaExerc.ReusoDeClasses.Funcionario;
 
 public class Administrativo extends Assistente{
     private String turno;
-    private double adicionalNoturno;
 
-    public Administrativo(String nome, double salario, int matricula, String turno, double adicionalNoturno){
-        super(nome, salario, matricula);
-        this.turno = turno;
-        if(this.turno.equalsIgnoreCase("noite")){
-            this.adicionalNoturno = adicionalNoturno;
+    public Administrativo(String nome, double salario, int numMatricula, String turno){
+        super(nome, salario, numMatricula);
+        if(turno.equalsIgnoreCase("dia")){
+            this.turno = turno;
         }else{
-            this.adicionalNoturno = 0;
+            this.turno = turno;
+            this.aumentarSalario(0.25 * salario);
         }
     }
 
     @Override
-    public double ganhoAnual(){
-        if(this.turno.equalsIgnoreCase("noite")){
-            return super.ganhoAnual() + (this.adicionalNoturno * 12);
-        }else{
-            return super.ganhoAnual();
-        }
-    }
-
-    @Override
-    public String toString(){
-        String infoAdicional = "Turno:" + turno;
-        if(this.turno.equalsIgnoreCase("noite")){
-            infoAdicional += ", Adicional Noturno:" + adicionalNoturno;
-        }
-        return super.toString() + infoAdicional;
+    public void ganhoAnual(){
+        double ganhoAnual = getSalario() * 12;
+        double bonusNoturno = (turno.equalsIgnoreCase("noite") ? (0.25 * getSalario()) : 0.0);
+        System.out.println("Ganho anual = " + ganhoAnual + " + 13 = " + (getSalario() - bonusNoturno) + " = " + (ganhoAnual + getSalario()));
     }
 }

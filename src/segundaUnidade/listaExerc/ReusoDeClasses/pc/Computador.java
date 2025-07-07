@@ -1,10 +1,10 @@
-package segundaUnidade.listaExerc.ReusoDeClasses.pc;
+package segundaUnidade.listaExerc.ReusoDeClasses.Pc;
 
-public class Computador extends Equipamento {
+public class Computador extends Equipamento{
     private String processador;
-    private String ram;
+    private int ram;
 
-    public Computador(String item, String marca, String processador, String ram){
+    public Computador(String processador, int ram, String item, String marca ){
         super(item, marca);
         this.processador = processador;
         this.ram = ram;
@@ -14,7 +14,7 @@ public class Computador extends Equipamento {
         return this.processador;
     }
 
-    public String getRam(){
+    public int getRam(){
         return this.ram;
     }
 
@@ -22,13 +22,11 @@ public class Computador extends Equipamento {
         this.processador = processador;
     }
 
-    public void setRam(String ram){
+    public void setRam(int ram){
         this.ram = ram;
     }
 
     public String toString(){
-        String res = "Computador:" + processador + "\t" + ram;
-        res += "\n" + super.toString();
-        return res; 
+        return (super.toString() + "\n{Computador:" + processador + "\t" + ram + "gb}");
     }
 }

@@ -1,23 +1,22 @@
 package segundaUnidade.listaExerc.ReusoDeClasses.Funcionario;
 
-public class Assistente extends Funcionario {
+public class Assistente extends Funcionario{
     private int matricula;
 
-    public Assistente(String nome, double salario, int matricula){
+    public Assistente(String nome, double salario ,int numMatricula){
         super(nome, salario);
-        this.matricula = matricula;
+        this.matricula = numMatricula;
     }
 
-    public int getMatricula() {
-        return matricula;
+    public void setMatricula(int numMatricula){
+        this.matricula = numMatricula;
     }
 
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
+    public int getMatricula(){
+        return this.matricula;
     }
 
     public String toString(){
-        String res = super.toString() + "\nMatricula:" + matricula;
-        return res;
+        return super.toString() + "matricula:" + matricula;
     }
 }

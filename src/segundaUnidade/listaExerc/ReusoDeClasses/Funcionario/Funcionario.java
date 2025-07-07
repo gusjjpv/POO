@@ -9,19 +9,21 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public double getSalario(){
-        return this.salario;
-    }
-
     public void aumentarSalario(double valor){
         salario += valor;
     }
 
-    public double ganhoAnual(){
-        return this.salario * 13;
+    public void ganhoAnual(){
+        double ganhoAnual;
+        ganhoAnual = (salario * 12);
+        System.out.println("Ganho anual = " + ganhoAnual + "\nGanho anual + 13 = " + (ganhoAnual + salario));
+    }
+
+    public double getSalario(){
+        return this.salario;
     }
 
     public String toString(){
-        return "Nome:" + nome + "\tSalario:" + salario;
+        return "nome:" + nome + " salario:" + salario + "\n";
     }
 }

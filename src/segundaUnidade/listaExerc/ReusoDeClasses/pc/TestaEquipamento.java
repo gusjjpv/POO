@@ -1,11 +1,10 @@
-package segundaUnidade.listaExerc.ReusoDeClasses.pc;
+package segundaUnidade.listaExerc.ReusoDeClasses.Pc;
 
 public class TestaEquipamento {
     public static void main(String[] args){
-        Equipamento equipamento = new Equipamento("mouse gamer", "attack shark");
-        Computador pc = new Computador("teclado", "machenike", "amd 5500U", "12");
-        
-        System.out.println(pc);
+        Equipamento equipamento = new Equipamento("mouse", "razer");
+        Computador pc = new Computador("ryzen5", 12,equipamento.getItem(), equipamento.getMarca());
         System.out.println(equipamento);
+        System.out.println(pc);
     }
 }

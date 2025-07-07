@@ -9,7 +9,6 @@ public class Governador extends Politico{
     }
 
     public String toString(){
-        String res = super.toString() + "Estado:" + estado + "\n";
-        return res;
+        return super.toString() + "estado:" + estado + "\n";
     }
 }
